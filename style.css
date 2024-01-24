@@ -1,0 +1,105 @@
+body {
+    font-family: 'Roboto', serif;
+    margin: 10px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  header{
+      background: linear-gradient(to right, #87CEEB, #6495ED); /* Gradasi warna biru muda */
+      padding: 80px;
+      margin: 0px;
+      border-radius: 20px;
+      margin-bottom: 40px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Bayangan */
+      position: relative;
+  }
+  header h1 {
+    color: white;
+    margin: 0;
+    font-size: 24px;
+  }
+
+  header p {
+    margin: 5px 0 0;
+    color: white;
+    font-size: 14px;
+  }
+
+  
+  footer {
+    background: linear-gradient(to right, #87CEEB, #6495ED); /* Gradasi warna biru muda */
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Bayangan */
+    position: relative;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .virtual-card {
+    border: 1px solid #ccc;
+    padding: 30px;
+    text-align: center;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .card-header img {
+    max-width:80px;
+    margin-bottom: 10px; /* Tambahkan margin bottom untuk memberi ruang antara logo dan nomor kartu */
+  }
+  
+  .card-content {
+    position: relative;
+  }
+  
+  #cardNumber {
+    font-family: 'Serif', serif; /* Ganti font ke Arial atau font lain yang mirip dengan tulisan kartu kredit */
+    font-size: 16px;
+    letter-spacing: 2px; /* Sesuaikan letter spacing agar sesuai dengan tulisan kartu kredit */
+    margin-bottom: 10px;
+  }
+  
+  #expDate, #cvv {
+    font-size: 12px; /* Kurangi ukuran font untuk tanggal kedaluwarsa dan CVV */
+    margin-top: 10px;
+  }
+  
+  #cardLogo {
+    max-width: 40px;
+    position: absolute;
+    top: 50px;
+    right: 5px;
+    z-index: 1; /* Atur z-index agar logo tidak menutupi nomor kartu */
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  footer {
+    margin-top: auto;
+  }
+  
